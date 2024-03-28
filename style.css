@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+.page-1 {
+    height: 100vh;
+    width: 100%;
+    background: #060606;
+}
+
+nav {
+    border-bottom: 0.1px solid rgb(72, 71, 71);
+}
+
+.nav-item {
+    font-size: 1rem;
+    margin: 1px 4px;
+    padding: 3px 5px;
+
+
+}
+
+.nav-item a {
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.nav-item a:hover {
+    color: #00FFA7;
+    /*On hovering over the text , the text-color changes*/
+}
+
+.banner-content-box {
+    height: 70vh;
+    width: 100%;
+
+}
+
+.content-section {
+    margin-top: 20px;
+
+
+}
+
+.content-section h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 800;
+    color: white;
+}
+
+.content-section span {
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 800;
+    background: linear-gradient(to right, #f0ff0d, #00F0FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content-section #para {
+    height: 10vh;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    font-size: 0.8rem;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#banner-button {
+    height: 40px;
+    width: 165px;
+    background: white;
+    border-radius: 25px;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+#banner-button ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#banner-button ul li {
+    font-size: 12px;
+    list-style: none;
+    margin: 3px 4px;
+    padding: 3px 4px;
+    font-weight: 700;
+}
+
+#banner-button #circle-btn {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: black;
+
+}
+
+[class^="ri-"],
+[class*=" ri-"] {
+    color: white;
+    padding-left: 3px;
+    font-size: 15px;
+}
+
+.page-2 {
+    height: 160vh;
+    width: 100%;
+    background: white;
+}
+
+.services {
+    height: 150vh;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.section-header {
+    height: 20vh;
+    width: 100%;
+    /* border: 2px solid green; */
+    margin-top: 50px;
+}
+
+.section-header h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #060606;
+    padding-left: 30px;
+}
+
+.section-content ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section-content ul p {
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.section-content ul li {
+    list-style: none;
+
+}
+
+#btn-circle-right {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+#btn-circle-left {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+
+
+#btn-circle-right>[class^="ri-"],
+[class*=" ri-"] {
+    font-size: 19px;
+    color: black;
+}
+
+#btn-circle-left>[class^="ri-"],
+[class*=" ri-"] {
+    font-size: 19px;
+    color: black;
+}
+
+
+.section-cards-box {
+    height: 150vh;
+    width: 100%;
+    /* border: 2px solid yellow; */
+}
+
+#card-content {
+    border-bottom: 2px solid black;
+}
+
+.cards-holder {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+
+}
+
+.cards {
+    height: 55vh;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #c7ebed;
+    margin-top: 20px;
+
+}
+
+#card-header {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+
+}
+
+#logo {
+    height: 25px;
+    width: 25px;
+
+}
+
+#logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+#service-name h3 {
+    font-size: 0.8rem;
+    font-weight: 650;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: black;
+    padding-bottom: 15px;
+}
+
+#service-name-lg {
+    padding-top: 15px;
+}
+
+#service-name-lg h3 {
+    font-size: 1.2rem;
+    line-height: 15px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+#service-logo-lg img {
+
+    height: 150px;
+    width: 200px;
+    padding-left: 15px;
+
+}
+
+#card-footer {
+    padding: 10px 2px;
+}
+
+#card-btn {
+    height: 40px;
+    width: 130px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    transition: all ease 0.5s;
+}
+
+#card-btn:hover {
+    background: black;
+    color: white;
+}
+
+
+
+#card-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#card-btn h4 {
+    font-size: 15px;
+    padding-top: 6px;
+    font-weight: 600;
+}
+
+#card-circle-btn {
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 15px;
+    background: linear-gradient(to right, #00FFA7, #FFFF00);
+}
+
+#card-circle-btn>[class^="ri-"],
+[class*=" ri-"] {
+    color: black;
+
+}
+
+#card-3,
+#card-7 {
+    background: #eed1d1;
+}
+
+
+#card-4,
+#card-8 {
+    background: #d0d4f3;
+}
+
+.page-3 {
+    height: 50vh;
+    width: 100%;
+    background: #060606;
+}
+
+.footer-content {
+    /* border: 2px solid red; */
+}
+
+#company-logo img {
+    padding-top: 50px;
+    padding-left: 40%;
+    padding-bottom: 40px;
+}
+
+#footer-divider {
+    height: 1px;
+    width: 70%;
+    background: rgb(72, 71, 71);
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#company-rights h5 {
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+
+@media (min-width : 200px) and (max-width:800px) {
+    .page-1 {
+        height: 70vh;
+        width: 102%;
+        background: #060606;
+    }
+
+
+
+    .content-section h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 800;
+        color: white;
+    }
+
+    .content-section span {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 800;
+
+    }
+
+    .content-section #para {
+        width: 53%;
+        margin-bottom: 100px;
+    }
+
+    .section-header {
+
+        height: 20vh;
+        width: 100%;
+        margin-top: 50px;
+
+    }
+
+    .section-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .section-content ul p {
+        font-size: 12px;
+    }
+
+    .cards-holder {
+        height: 100vh;
+        width: 100%;
+        margin-left: 25px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .page-2 {
+        height: 490vh;
+        width: 100%;
+        background: white;
+    }
+
+    .page-3 {
+        height: 50vh;
+        width: 102%;
+        background: #060606;
+    }
+
+    #company-logo img {
+
+        padding-left: 15%;
+
+    }
+
+    #footer-divider {
+
+        width: 90%;
+
+    }
+
+
+}
